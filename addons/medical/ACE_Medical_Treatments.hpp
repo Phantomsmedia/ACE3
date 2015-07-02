@@ -38,7 +38,6 @@ class ACE_Medical_Actions {
         class Epinephrine: Bandage {
             displayName = CSTRING(Inject_Epinephrine);
             displayNameProgress = CSTRING(Injecting_Epinephrine);
-            requiredMedic = 1;
             treatmentTime = 3;
             items[] = {"ACE_epinephrine"};
             callbackSuccess = QUOTE(DFUNC(treatmentBasic_epipen));
